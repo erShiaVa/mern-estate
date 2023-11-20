@@ -1,3 +1,5 @@
 export const test =  (req, res) => {
-    res.send('Hello world');
+    res.json({
+        message: 'Hello world is work',
+    });
 }
